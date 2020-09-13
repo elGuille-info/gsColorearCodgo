@@ -5,7 +5,7 @@ Utilidad (de .NET Framework 4.8) para colorear código y generar HTML para usar 
 Esta utilidad utiliza .NET Framework 4.8 y la biblioteca de clases <b>gsColorearNET</b> para colorear el código (de .NET Standard 2.0) instalada desde el paquete de NuGet.<br>
 <br>
 La carpeta <b>actual</b> tiene el código del proyecto actual con las modificaciones.<br>
-Lo que hay en la carpeta <b>source</b> son copias de las distintas versiones creadas.<br>
+Las modificaciones estarán en otras ramas, por eso en este proyecto no uso otra carpeta con las diferentes versiones del código.<br>
 <br>
 <br>
 <h2>IMPORTANTE:</h2><br>
