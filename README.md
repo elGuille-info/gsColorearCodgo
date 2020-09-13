@@ -12,6 +12,8 @@ Lo que hay en la carpeta <b>source</b> son copias de las distintas versiones cre
 Esta utilidad está codificada para usar en .NET Framework 4.8 y debe seguir siendo así, estoy creando una versión para usar con .NET 5.0 Preview 8<br>
 Puedes usar este código en tus proyectos sin ninguna restricción.<br>
 <br>
+<br>
+<h2>Información y enlaces de esta utilidad</h2>
 Esta utilidad usa la DLL gsCompilarNET creada con .NET Standard 2.0, la cual puedes descargarla o instalarla desde el paquete de NuGet: https://www.nuget.org/packages/gsColorearNET/<br>
 <br>
 <br>
