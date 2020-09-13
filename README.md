@@ -7,6 +7,8 @@ Esta utilidad utiliza .NET Framework 4.8 y la biblioteca de clases <b>gsColorear
 La carpeta <b>actual</b> tiene el código del proyecto actual con las modificaciones.<br>
 Las modificaciones estarán en otras ramas, por eso en este proyecto no uso otra carpeta con las diferentes versiones del código.<br>
 <br>
+La carpeta <b>bin</b> tiene el ejecutable compilado con .NET Framework 4.8 y gsColorearNET.dll compilada con .NET Standard 2.0.<br>
+<br>
 <br>
 <h2>IMPORTANTE:</h2><br>
 Esta utilidad está codificada para usar en .NET Framework 4.8 y debe seguir siendo así, estoy creando una versión para usar con .NET 5.0 Preview 8<br>
