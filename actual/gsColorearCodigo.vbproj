@@ -77,7 +77,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="gsColorearNET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=998faacd87f6e534, processorArchitecture=MSIL">
-      <HintPath>..\packages\gsColorearNET.1.0.0.4\lib\netstandard2.0\gsColorearNET.dll</HintPath>
+      <HintPath>..\packages\gsColorearNET.1.0.0.5\lib\netstandard2.0\gsColorearNET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Deployment" />
