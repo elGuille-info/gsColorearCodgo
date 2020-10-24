@@ -23,6 +23,7 @@
 ' versión 1.0.8.6   Por actualización de gsColorearNET              (13/Sep/20)
 ' versión 1.0.8.7   Por actualización de gsColorearNET              (16/Sep/20)
 ' versión 1.0.8.8   Por actualización de gsColorearNET              (18/Sep/20)
+' versión 1.0.8.9   Por actualización de gsColorearNET              (19/Sep/20)
 '
 ' ©Guillermo 'guille' Som, 2005-2007, 2020
 '
@@ -322,13 +323,27 @@ Public Class fColorear
         ni.Text = "gsColorearCodigo"
         ni.Icon = Me.Icon
         ni.Visible = True ' False
-        '
+
+        ' No posicionarlo, por si se usó con un monitor             (18/Oct/20)
+        ' que ya no tenemos y no se puede cambiar de sitio
         ' Asignar el tamaño y última posición
-        Me.Left = cfg.GetValue("Ventana", "Left", Me.Left)
-        Me.Top = cfg.GetValue("Ventana", "Top", Me.Top)
+
+        ' Comprobar que esté en la parte visible                    (24/Oct/20)
+        Dim l = cfg.GetValue("Ventana", "Left", Me.Left)
+        Dim t = cfg.GetValue("Ventana", "Top", Me.Top)
+        If Screen.PrimaryScreen.WorkingArea.Left < l Then
+            Me.Left = cfg.GetValue("Ventana", "Left", Me.Left)
+        Else
+            Me.Left = 0
+        End If
+        If Screen.PrimaryScreen.WorkingArea.Top < t Then
+            Me.Top = cfg.GetValue("Ventana", "Top", Me.Top)
+        Else
+            Me.Top = 0
+        End If
         Me.Height = cfg.GetValue("Ventana", "Height", Me.Height)
         Me.Width = cfg.GetValue("Ventana", "Width", Me.Width)
-        '
+
         inicializando = False
     End Sub
     '
@@ -720,7 +735,10 @@ Public Class fColorear
     '
     Private Sub fColorear_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ' centrar el formulario al ancho de la pantalla
-        Me.Left = (Screen.PrimaryScreen.WorkingArea.Width - Me.Width) \ 2
+        'Me.Left = (Screen.PrimaryScreen.WorkingArea.Width - Me.Width) \ 2
+
+        Me.CenterToScreen()
+
         Me.rtEditor.AllowDrop = True
         '
         Dim sb As New System.Text.StringBuilder("©Guillermo 'guille' Som, 2006")
@@ -1438,7 +1456,7 @@ Public Class fColorear
             lbl = LabelColorRem
         ElseIf txt Is txtColorTexto Then
             lbl = LabelColorTexto
-        ElseIf txt Is txtColorXML Then
+        Else 'If txt Is txtColorXML Then
             lbl = LabelColorXML
         End If
 

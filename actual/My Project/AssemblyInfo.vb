@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Revisar los valores de los atributos del ensamblado
 
 <Assembly: AssemblyTitle("gsColorearCodigo")>
-<Assembly: AssemblyDescription("Utilidad para colorear código en formato HTML o RTF usando la librería gsColorearNET  (revisión del 13/Sep/2020)")>
+<Assembly: AssemblyDescription("Utilidad para colorear código en formato HTML o RTF usando la librería gsColorearNET  (revisión del 24/Oct/2020)")>
 <Assembly: AssemblyCompany("elGuille")>
 <Assembly: AssemblyProduct("gsColorearCodigo")>
 <Assembly: AssemblyCopyright("©Guillermo 'guille' Som, 2006-2007, 2018-2020")>
@@ -34,4 +34,4 @@ Imports System.Runtime.InteropServices
 ' mediante el asterisco ('*'), como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 <Assembly: AssemblyVersion("1.0.8.0")>
-<Assembly: AssemblyFileVersion("1.0.8.6")>
+<Assembly: AssemblyFileVersion("1.0.8.11")>

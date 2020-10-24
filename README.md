@@ -11,7 +11,7 @@ La carpeta <b>bin</b> tiene el ejecutable compilado con .NET Framework 4.8 y gsC
 <br>
 <br>
 <h2>IMPORTANTE:</h2><br>
-Esta utilidad está codificada para usar en .NET Framework 4.8 y debe seguir siendo así, estoy creando una versión para usar con .NET 5.0 Preview 8<br>
+Esta utilidad está codificada para usar en .NET Framework 4.8 y debe seguir siendo así, estoy creando una versión para usar con .NET 5.0 RC2<br>
 Puedes usar este código en tus proyectos sin ninguna restricción.<br>
 <br>
 <br>
