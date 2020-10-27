@@ -7,7 +7,8 @@ Esta utilidad utiliza .NET Framework 4.8 y la biblioteca de clases <b>gsColorear
 La carpeta <b>actual</b> tiene el código del proyecto actual con las modificaciones.<br>
 Las modificaciones estarán en otras ramas, por eso en este proyecto no uso otra carpeta con las diferentes versiones del código.<br>
 <br>
-La carpeta <b>bin</b> tiene el ejecutable compilado con .NET Framework 4.8 y gsColorearNET.dll compilada con .NET Standard 2.0.<br>
+<b>Nota:</b><br>
+He quitado la carpeta <b>bin</b>, los ejecutables los puedes descargar desde la sección <b>Releases</b>.<br>
 <br>
 <br>
 <h2>IMPORTANTE:</h2><br>
@@ -27,3 +28,4 @@ http://elguille.info/NET/clickonce_pub/gsColorearCodigo/Default.aspx
 <br>
 Guillermo<br>
 <br>
+Actualizo el 27 de octuubre de 2020 a eso de las 11:38 GMT+1

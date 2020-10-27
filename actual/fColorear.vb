@@ -25,6 +25,8 @@
 ' versión 1.0.8.8   Por actualización de gsColorearNET              (18/Sep/20)
 ' versión 1.0.8.9   Por actualización de gsColorearNET              (19/Sep/20)
 '
+' versión 1.0.8.12  Con gsColorearNET v1.0.0.15                     (27/Oct/20)
+'
 ' ©Guillermo 'guille' Som, 2005-2007, 2020
 '
 ' Para ClickOnce, que se borra y no siempre lo recuerda:
