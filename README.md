@@ -28,4 +28,4 @@ http://elguille.info/NET/clickonce_pub/gsColorearCodigo/Default.aspx
 <br>
 Guillermo<br>
 <br>
-Actualizo el 27 de octuubre de 2020 a eso de las 11:38 GMT+1
+Actualizo el 28 de octuubre de 2020 a eso de las 13:38 GMT+1

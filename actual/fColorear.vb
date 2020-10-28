@@ -26,6 +26,7 @@
 ' versión 1.0.8.9   Por actualización de gsColorearNET              (19/Sep/20)
 '
 ' versión 1.0.8.12  Con gsColorearNET v1.0.0.15                     (27/Oct/20)
+' versión 1.0.8.13  Con gsColorearNET v1.0.0.16                     (28/Oct/20)
 '
 ' ©Guillermo 'guille' Som, 2005-2007, 2020
 '
